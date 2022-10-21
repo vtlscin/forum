@@ -1,0 +1,5 @@
+Rodar jar da aplicação definindo profile ativo e valor paras variáveis de ambiente
+ - java -jar -Dspring.profiles.active=prod -DFORUM_DATABASE_URL=jdbc:h2:mem:alura-forum -DFORUM_DATABASE_USERNAME=sa Forum.jar
+
+Utilizando flag para limitar tamanho da heap
+java -Xmx512m -jar -Dspring.profiles.active=prod -DFORUM_DATABASE_URL=jdbc:h2:mem:alura-forum -DFORUM_DATABASE_USERNAME=sa Forum.jar
